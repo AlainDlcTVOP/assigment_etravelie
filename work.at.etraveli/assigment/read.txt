@@ -1,0 +1,5 @@
+This assignment was very fun and very good exercise,
+this will improve my skill level in React and front-end development.
+What took the most time was to recreate the mockup with css
+With best regards
+Alain De La Cuadra

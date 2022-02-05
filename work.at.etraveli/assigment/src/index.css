@@ -1,0 +1,104 @@
+html {
+  font-size: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contianer {
+ max-width: 1000px;
+ margin: 0;
+ padding: 40px;
+}
+.form{
+  display: grid;
+  width: 100%;
+  margin-left: 16px;
+}
+
+.movie {
+  display: flex;
+}
+
+.movie_row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.movie_title {
+  font-size:  14px;
+  padding: 8px 0 8px 10px;
+}
+
+.movie_release {
+  font-size: 14px;
+  padding: 8px 10px 8px 0;
+}
+
+.movie_desc {
+  border-left: 1px solid #ccc;
+  height: 400px;
+  margin: auto;
+  padding: 16px;
+}
+
+.movie_selected {
+  text-align: center;
+  padding-top: 10em;
+}
+
+.text_details {
+  margin-top: 10px;
+}
+
+
+.button {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.button:hover {
+  background-color: #f7fafa;
+}
+
+.button:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+.popup {
+  padding: 8px;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%)
+}
+
+.sort_title {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
